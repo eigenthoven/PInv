@@ -1,0 +1,39 @@
+Nombre, k, c, rho, Costo, Capa
+Polycarbonate/ABS Alloy Unreinforced, 0.222, 1780, 1160, 3.26, M/I
+Acrylonitrile Butadiene Styrene (ABS) Molded, 0.162, 1990, 1070, 2, M/I
+Polytetrafluoroethylene (PTFE) Molded, 0.263, 1010, 2070, 15, E
+Polyperfluoroalkoxyethylene (PFA) Molded/Extruded, 0.23, 1020, 2150, 35, E
+Fluorocarbon ETFE/ECTFE Molded/Extruded, 0.179, 1180, 1730, 30, E
+Polyvinylidinefluoride (PVDF) Molded/Extruded, 0.185, 1060, 1770, 24, E
+Nylon 6 Unreinforced, 0.23, 1710, 1140, 2.09, M/I
+Nylon 66 Unreinforced, 0.265, 1720, 1170, 2.6, E
+Nylon 12, 0.26, 2130, 1260, 5.5, M/E
+Polycarbonate Molded, 0.216, 1650, 1200, 2.94, M/E
+Polycarbonate/Polybutylene Terephthalate (PBT) Blend Unreinforced, 0.188, 1830, 1230, 2.7, M/I
+Polybutylene Terephthalate (PBT) Unreinforced Molded, 0.236, 1660, 1380, 2.31, M/I
+Polyethylene Terephthalate (PET) Unreinforced, 0.266, 1160, 1360, 1.7, M/I
+PETG Copolyester, 0.197, 1200, 1270, 2.2, M/I
+PCTG Copolyester, 0.202, 1610, 1210, 2.6, M/I
+High Density Polyethylene (HDPE) Pipe Grade, 0.4, 2010, 952, 1.35, M/E
+High Density Polyethylene (HDPE) Ultra High Molecular Weight, 0.426, 1820, 952, 4.8, M/E
+Polypropylene (PP), 0.2, 1700, 910, 1.98, M/I
+Polystyrene Impact Modified, 0.169, 2060, 1050, 2.22, I
+PVC Foam Grade, 0.0394, 1570, 559, 2.3, M
+Thermoset Polyurethane Foam Unreinforced, 0.0605, 1200, 417, 3.5, M
+American Beech Wood, 0.144, 390, 560, 0.95, M/I
+American Yellow Birch Wood, 0.144, 390, 550, 0.9, M/I
+Alluminum Alloy, 149, 902, 2520, 2.8, E
+1000 Series Alluminum, 230, 901, 2700, 3.1, E
+Titanium, 17, 528, 4500, 12.5, E
+Zinc, 112, 390, 7100, 2.7, E
+Nickel, 60.7, 460, 8880, 15.8, E
+Copper, 385, 385, 8390, 8.9, E
+Magnesium, 159, 1020, 1740, 2.8, E
+Vermiculite (Magnesium Aluminum Iron Silicate), 0.06235, 1080, 108, 0.45, M
+Alumina alpha Al2O3 99.5%, 30, 880, 3900, 4.5, E
+Cordierite, 2.5, 900, 2300, 2.8, E
+Mullite, 3.5, 950, 2800, 3.5, E
+Fused Quartz, 1.7, 700, 2200, 2.2, M/E
+Concrete Lightweight, 0.21, 657, 950, 0.12, M
+Concrete Stone 1-2-4 Mix, 1.46, 880, 2300, 0.09, E
+Autoclaved aerated concrete (AAC 0.6 g/cc), 0.19, 1000, 600, 0.25, M
