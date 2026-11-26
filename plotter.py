@@ -2,20 +2,16 @@ import matplotlib.pyplot as plt
 
 # Definimos varios arrays para los datos experimentales y teóricos (de solver.py)
 
-experimental_1 = []
-experimental_2 = []
-experimental_3 = []
-experimental_4 = []
-experimental_5 = []
-experimental_6 = []
-experimental_7 = []
-solver_1 = []
-solver_2 = []
-solver_3 = []
-solver_4 = []
-solver_5 = []
-solver_6 = []
-solver_7 = []
+experimental = []
+solver = []
 
 # Trasladar los datos del experimento (formato .txt) a los arrays
 
+
+with open(input("Introducir nombre de archivo de experimento"), "r", encoding="utf-8") as r:
+    for row in r:
+        cleaned = row.strip()
+        if cleaned:
+            experimental.append([float(x) for x in cleaned.split()])
+
+print(experimental)
