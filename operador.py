@@ -1,7 +1,7 @@
 import csv
 import math
 import optimizador
-import solver       
+import solver_boolean       
 
 INTERIOR_TRANQUILO = 3.0     
 EXTERIOR_SIN_VIENTO = 5.0
@@ -107,7 +107,7 @@ for i in interna:
 
             # Llamada al solver y determinación de cumplimiento con el tct
 
-            if solver.resolver_termica(dn, dt, profundidad_1, profundidad_2, profundidad_3, k_1, k_2, k_3, c_1, c_2, c_3, rho_1, rho_2, rho_3, h_ext, h_int, t_ext, t_int, it, rango_temp):
+            if solver_boolean.resolver_termica(dn, dt, profundidad_1, profundidad_2, profundidad_3, k_1, k_2, k_3, c_1, c_2, c_3, rho_1, rho_2, rho_3, h_ext, h_int, t_ext, t_int, it, rango_temp):
                 comb_cumplen.append((e, m, i))
 
 # Llamar a optimizador.py
