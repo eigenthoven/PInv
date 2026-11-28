@@ -18,7 +18,7 @@ rho = float(input("Densidad de la capa (en kg/m3): "))
 h_ext = float(input("Coeficiente de transferencia de calor externo (en W/m2K): "))
 h_int = float(input("Coeficiente de transferencia de calor interno (en W/m2K): "))
 t_ext = float(input("Temperatura externa (en °C): "))
-t_int = float(input("Temperatura interna (en °C): en sensor %d: " % n_sensor))
+t_int = experimental[0]
 
 # Trasladar los datos del experimento (formato .txt) a los arrays
 
@@ -33,7 +33,7 @@ it = len(experimental) - 1
 # Estabilidad de Von Neumann
 
 alpha = k/(c * rho) 
-dn = sqrt((alpha * dt) / 0.25)
+dn = math.sqrt((alpha * dt) / 0.25)
 
 intervalo_tiempo = float(input("Introducir intervalo de tiempo (en segundos) empleado en el experimento: "))
 solver_array.resolver_termica(dn, dt, profundidad/3, profundidad/3, profundidad/3, k, k, k, c, c, c, rho, rho, rho, h_ext, h_int, t_ext, t_int, it)
